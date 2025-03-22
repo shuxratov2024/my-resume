@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    &-item{
+        padding: 10px 20px;
+        max-width: 1220px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        
+    }
+    &-ava img{
+        border-radius: 15px;
+        width: 100px;
+        height: 110px;
+    }
+    &-name {
+        display: flex;
+       margin-left: 600px;
+    }
+}
+@media screen and (max-width:400px) {
+   .footer{
+    background-color:black;
+    color: white;
+   }
+   .footer a {
+    font-size: 20px;
+   }
+   .footer-name{
+    display: none;
+   }
+   
+}
